@@ -15,4 +15,8 @@ public class Categoria {
                 ", textoCategoria='" + textoCategoria + '\'' +
                 '}';
     }
+
+    public String getIdCategoria() {
+        return idCategoria;
+    }
 }
