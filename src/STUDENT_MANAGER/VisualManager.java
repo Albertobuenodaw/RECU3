@@ -1,6 +1,6 @@
 package STUDENT_MANAGER;
 
-import MINI_VENTANAS.List;
+import MINIVENTANAS.List;
 
 import javax.swing.*;
 import java.awt.*;
