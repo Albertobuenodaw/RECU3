@@ -163,7 +163,6 @@ public class Cuestionario extends JFrame implements ActionListener {
 
 
         center.add(list);
-
         list.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent listSelectionEvent) {
