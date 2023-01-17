@@ -19,6 +19,7 @@ public class ProbandoWriter {
                  c = (reader.read());
                 System.out.print((char)c);
             }
+            reader.close();
 
         } catch (IOException e) {
             throw new RuntimeException(e);
