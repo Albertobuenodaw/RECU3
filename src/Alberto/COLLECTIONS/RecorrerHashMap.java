@@ -25,21 +25,26 @@ public class RecorrerHashMap {
 
         //recorremos el hashmap
         //1-forEach
-        mapa.forEach(
-                (id, nombre)
-                -> System.out.println("Id:"+id+" Nombre:"+nombre)
-        );
+//        mapa.forEach(
+//                (id, nombre)
+//                -> {
+//                    System.out.println("Id:" + id + " Nombre:" + nombre);
+//                    System.out.println(nombre+" es el mejor.");
+//                }
+//
+//        );
+
 
         //2-for get.Value get.Key
-        for(Map.Entry<Integer,String> registro : mapa.entrySet()){
-            System.out.println("Id:"+ registro.getKey()+" Nombre:"+registro.getValue());
-        }
+//        for(Map.Entry<Integer,String> registro : mapa.entrySet()){
+//            System.out.println("Id:"+ registro.getKey()+" Nombre:"+registro.getValue());
+//        }
 
         //3-iterator
-        Iterator<Map.Entry<Integer,String>> it = mapa.entrySet().iterator();
-        while (it.hasNext()){
-            System.out.println();
-        }
+//        Iterator<Map.Entry<Integer,String>> it = mapa.entrySet().iterator();
+//        while (it.hasNext()){
+//            System.out.println("Nombre ->"+(String)it.next().getValue());
+//        }
     }
 
 }
