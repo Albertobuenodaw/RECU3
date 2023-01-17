@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Boton_2 extends JFrame{
-    JLabel vacio;
+    private JLabel vacio;
 
     JButton b1;
     JButton b2;
@@ -57,6 +57,7 @@ public class Boton_2 extends JFrame{
         vacio = new JLabel();
         south.add(vacio);
     }
+
 
     private void addComponentsToCenter(Container center){
         b1 = new JButton("Bici");

@@ -1,9 +1,7 @@
 package Alberto.COLLECTIONS;
-
 import java.util.*;
 
 public class RecorrerHashMap {
-
     public static  void main (String [] args){
         List<String> lista = new ArrayList<String>();
         Map<Integer, String> mapa = new HashMap<Integer, String>();
@@ -43,7 +41,5 @@ public class RecorrerHashMap {
             System.out.println();
         }
     }
-
-
 
 }
